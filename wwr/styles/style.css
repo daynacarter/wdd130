@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Rock+Salt&display=swap');
 a {
     text-align: center;
+    font-family: Raleway;
 }
 a hover {
     background-color:#fcfbfb;
@@ -8,6 +10,9 @@ a hover {
 }
 .home-title {
     color:black;
+    font-family: "Rock Salt", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 #content {
     max-width: 1600px;
@@ -17,6 +22,7 @@ a hover {
   }
   p {
     margin: 0 auto;
+    font-family: Raleway;
   }
   #hero-msg h1 {
     text-align: center;
@@ -39,6 +45,12 @@ a hover {
 }
 body {
     background-color:#fcfbfb; 
+    font-family: "Rock Salt";
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color:bisque;
@@ -47,6 +59,7 @@ nav a {
     color:black;
     text-decoration: none;
     text-align: center;
+    padding: 35px;
 }
 nav a:hover {
     background-color: black;
@@ -56,6 +69,10 @@ nav a:hover {
     background-color:#fcfbfb;
     color:black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color:black;
@@ -67,19 +84,26 @@ nav a:hover {
 }
 .msg {
     background-color:bisque;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color:black;
 }
 .msg p {
     color:black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color:dimgrey;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer h3 {
     color:#fcfbfb;
     text-decoration: underline;
+    font-family: Raleway;
 }
 footer a {
     color:#fcfbfb;
@@ -93,7 +117,26 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+footer {
+    padding-top: 15px;
+}
+.social img {
+    padding-top: 15px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}   
+.card-img {
+    border: 10px solid bisque;
+}
+main section img {
+    box-sizing: border-box;
 }
