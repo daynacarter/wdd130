@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Rock+Salt&display=swap');
 a {
     text-align: center;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif, Helvetica;
 }
 a hover {
     background-color:#fcfbfb;
@@ -10,7 +10,7 @@ a hover {
 }
 .home-title {
     color:black;
-    font-family: "Rock Salt", sans-serif;
+    font-family: "Rock Salt", sans-serif, Helvetica;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -22,7 +22,7 @@ a hover {
   }
   p {
     margin: 0 auto;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif, Helvetica;
   }
   #hero-msg h1 {
     text-align: center;
@@ -45,7 +45,7 @@ a hover {
 }
 body {
     background-color:#fcfbfb; 
-    font-family: "Rock Salt";
+    font-family: "Rock Salt", sans-serif, Helvetica;
     margin: 0;
     padding: 0;
 }
@@ -103,7 +103,7 @@ footer {
 footer h3 {
     color:#fcfbfb;
     text-decoration: underline;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif, Helvetica;
 }
 footer a {
     color:#fcfbfb;
