@@ -5,5 +5,7 @@
   --accent1-color: #EEE0CB;
   --accent2-color: #BAA898;
 
-  --heading-font: "Rock Salt";
-  --paragraph-font: Roboto, Helvetica, sans-serif;
+h4 {
+  heading-font: "Rock Salt";
+  paragraph-font: Roboto, Helvetica, sans-serif;
+}
