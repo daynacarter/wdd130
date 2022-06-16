@@ -27,7 +27,7 @@ a hover {
     font-family: Raleway, sans-serif, Helvetica;
     background-color:bisque;
     line-height: 1.5em;
-    padding: 35px;
+    padding: 5px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
@@ -261,4 +261,7 @@ main section img {
     footer {
         margin-top: 25px;
     }
+}
+.faq-text {
+    text-align: center;
 }
