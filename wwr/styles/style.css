@@ -45,6 +45,9 @@ a hover {
       text-align: center;
       color: black;
   }
+  .faq-banner {
+      width: 100%;
+  }
   #hero-msg h4 {
     text-align:center;
     color: white;
