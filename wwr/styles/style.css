@@ -4,15 +4,19 @@ a {
     font-family: Raleway, sans-serif, Helvetica;
 }
 a hover {
-    background-color:#fcfbfb;
+    background-color: white;
     color:black;
     text-decoration: underline;
 }
 .home-title {
     color:black;
-    font-family: "Rock Salt", sans-serif, Helvetica;
     font-size: 2em;
     margin-top: 10px;
+}
+.title {
+    color:black;
+    font-size: 2em;
+
 }
 #content {
     max-width: 1600px;
@@ -21,6 +25,12 @@ a hover {
   p {
     margin: 0 auto;
     font-family: Raleway, sans-serif, Helvetica;
+    background-color:bisque;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
   }
   #hero-msg {
     grid-column: 2/3;
@@ -30,6 +40,10 @@ a hover {
   #hero-msg h1 {
     text-align: center;
     color: white;
+  }
+  #hero-msg h2 {
+      text-align: center;
+      color: black;
   }
   #hero-msg h4 {
     text-align:center;
@@ -46,6 +60,10 @@ a hover {
     color:black;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+  }
+  .faq-grid {
+      text-align: center;
+      color:black;
   }
   #background {
     height: 725px;
