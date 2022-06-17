@@ -67,6 +67,8 @@ a hover {
   .faq-grid {
       text-align: center;
       color:black;
+      display: block;
+      height: auto;
   }
   #background {
     height: 725px;
