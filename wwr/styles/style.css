@@ -32,6 +32,9 @@ a hover {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
   }
+  h2 {
+    font-family: "Rock Salt", sans-serif, Helvetica;
+  }
   #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -78,9 +81,6 @@ body {
     font-family: "Rock Salt", sans-serif, Helvetica;
     margin: 0;
     padding: 0;
-}
-h2 {
-    margin: 0;
 }
 header {
     background-color:bisque;
@@ -266,4 +266,5 @@ main section img {
 }
 .faq-text {
     text-align: center;
+    margin: 0 auto;
 }
