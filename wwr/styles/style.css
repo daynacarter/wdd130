@@ -9,10 +9,10 @@ a hover {
     text-decoration: underline;
 }
 .home-title {
-    color:black;
+    color:white;
     font-size: 2em;
     margin-top: 10px;
-}
+}s
 .title {
     color:black;
     font-size: 2em;
@@ -33,6 +33,7 @@ a hover {
   }
   h2 {
     font-family: "Rock Salt", sans-serif, Helvetica;
+    color: black;
   }
   #hero-msg {
     grid-column: 2/3;
@@ -41,11 +42,11 @@ a hover {
   }
   #hero-msg h1 {
     text-align: center;
-    color: black;
+    color: white;
   }
   #hero-msg h2 {
       text-align: center;
-      color: black;
+      color: white;
   }
   .faq-banner {
       width: 100%;
@@ -222,10 +223,6 @@ footer {
 main section img {
     box-sizing: border-box;
 }
-#hero-msg h3 {
-    text-align: center;
-    color: black;
-  }
 #feedback {
     background-color: antiquewhite;
     position: absolute;
