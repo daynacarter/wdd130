@@ -9,7 +9,7 @@ a hover {
     text-decoration: underline;
 }
 .home-title {
-    color:white;
+    color:black;
     font-size: 2em;
     margin-top: 10px;
 }s
@@ -46,7 +46,11 @@ a hover {
   }
   #hero-msg h2 {
       text-align: center;
-      color: white;
+      color: black;
+  }
+  #hero-msg h3{
+      text-align: center;
+      color: black;
   }
   .faq-banner {
       width: 100%;
