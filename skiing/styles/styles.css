@@ -30,8 +30,12 @@ a hover {
     grid-row: 1/2;
     margin-top: 100px;
   }
+  .ski-prices {
+      grid-column: 6/8;
+      grid-row: 2/3;
+  }
   #hero-msg h1 {
-    text-align: center;
+    text-align:center;
     color: black;
   }
   #hero-msg h2 {
@@ -68,6 +72,26 @@ a hover {
   }
   #background {
     height: 725px;
+}
+.mens-ski {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.womans-skis {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.mens-boots {
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+.womans-boots {
+    grid-column: 6/8;
+    grid-row: 3/4;
+}
+.kid-ski {
+    grid-column: 2/4;
+    grid-row: 
 }
 body {
     background-color:#fcfbfb; 
