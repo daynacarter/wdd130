@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 a {
     text-align: center;
-    font-family: Roboto, sans-serif, Helvetica;
+    font-family: Roboto, Helvetica, sans-serif;
 }
 a hover {
-    background-color: white;
+    background-color: black;
     color:black;
     text-decoration: underline;
 }
@@ -22,7 +22,7 @@ a hover {
     margin: 0 auto;
   }
   h2 {
-    font-family: "Rock Salt", sans-serif, Helvetica;
+    font-family: "Rock Salt", Helvetica, sans-serif;
     color: black;
   }
   #hero-msg {
@@ -37,6 +37,8 @@ a hover {
   #hero-msg h1 {
     text-align:center;
     color: black;
+    grid-column: 4/5;
+    grid-row: 1/2;
   }
   #hero-msg h2 {
       text-align: center;
@@ -50,7 +52,7 @@ a hover {
       width: 100%;
   }
   .second-title {
-    font-family: Roboto, sans-serif, Helvetica;
+    font-family: Roboto, Helvetica, sans-serif;
     color: black;
   }
   #hero-msg h4 {
@@ -68,7 +70,11 @@ a hover {
     text-align: center;
     color:black;
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat (8 1fr);
+    grid-template-rows: repeat (8 1fr);
+  }
+  .button-box {
+    text-align: center;
   }
   #background {
     height: 725px;
@@ -142,7 +148,7 @@ a hover {
 }
 body {
     background-color:#fcfbfb; 
-    font-family: "Rock Salt", roboto, Helvetica;
+    font-family: "Rock Salt", Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -183,7 +189,7 @@ footer {
 footer h3 {
     color:#fcfbfb;
     text-decoration: underline;
-    font-family: Raleway, sans-serif, Helvetica;
+    font-family: Roboto, Helvetica, sans-serif;
 }
 footer a {
     color:#fcfbfb;
@@ -205,12 +211,14 @@ footer a:hover {
     margin-top: -100px; 
 }
 #hero-box {
-    grid-column: 1/4;
-    grid-row: 1/3;
+    grid-column: 1/8;
+    grid-row: 1/2;
     z-index: -1;
 }
 #hero-img {
     width: 100%;
+    grid-column: 1/8;
+    grid-row: 7/8;
 }
 footer {
     padding-top: 15px;
