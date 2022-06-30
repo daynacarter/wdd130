@@ -34,6 +34,12 @@ a hover {
   .sub-title {
       grid-column: 1/4;
       grid-row: 1;
+      text-align: center;
+  }
+  .about {
+      padding: 50px;
+      margin-top: 150px;
+      font-family: Roboto, Helvetica, sans-serif;
   }
   .ski-prices {
       grid-column: 6/8;
@@ -59,10 +65,6 @@ a hover {
   }
   .faq-banner {
       width: 100%;
-  }
-  .second-title {
-    font-family: Roboto, Helvetica, sans-serif;
-    color: black;
   }
   #hero-msg h4 {
     text-align:center;
