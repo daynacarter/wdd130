@@ -31,6 +31,11 @@ a hover {
       grid-template-rows: auto auto auto;
       grid-template-columns: auto auto auto;
   }
+  .children {
+      display:grid;
+      grid-template-rows: auto auto;
+      grid-template-columns: auto auto;
+  }
   .sub-title {
       grid-column: 1/4;
       grid-row: 1;
@@ -41,6 +46,16 @@ a hover {
       margin-top: 150px;
       font-family: Roboto, Helvetica, sans-serif;
   }
+  .card-img {
+    border: 10px solid #848586;
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
   .ski-prices {
       grid-column: 6/8;
       grid-row: 2/3;
@@ -96,73 +111,6 @@ a hover {
 
   #background {
     height: 725px;
-}
-.mens-ski {
-    grid-column: 2/4;
-    grid-row: 2/3;
-}
-.womans-skis {
-    grid-column: 5/7;
-    grid-row: 2/3;
-}
-.mens-boots {
-    grid-column: 2/4;
-    grid-row: 3/4;
-}
-.womans-boots {
-    grid-column: 6/8;
-    grid-row: 3/4;
-}
-.kid-ski {
-    grid-column: 2/4;
-    grid-row: 7/8;
-}
-.womans-bindings {
-    grid-column: 2/4;
-    grid-row: 5/6; 
-}
-.mens-bindings {
-    grid-column: 5/7;
-    grid-row: 5/6;
-}
-.kid-boots {
-    grid-column: 2/4;
-    grid-row: 9/11;
-}
-.kid-bindings {
-    grid-column: 2/4;
-    grid-row: 12/14;
-}
-.adult-boots {
-    grid-column: 5/6;
-    grid-row: 3/4;
-    margin-top: 10px;
-    z-index: 10;
-}
-.adult-bindings {
-    grid-column: 5/6;
-    grid-row: 5/6;
-    z-index: 10;
-}
-.childrens-gear {
-    grid-column: 4/5;
-    grid-row: 7/8;
-    z-index: 10;
-}
-.childrens-skis {
-    grid-column: 5/6;
-    grid-row: 7/8;
-    z-index: 10;
-}
-.childrens-boots {
-    grid-column: 4/5;
-    grid-row: 9/11;
-    z-index: 10;
-}
-.childrens-bindings {
-    grid-column: 4/5;
-    grid-row: 12/14;
-    z-index: 10;
 }
 body {
     background-color:#fcfbfb; 
