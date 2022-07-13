@@ -8,6 +8,11 @@ a hover {
     color:white;
     text-decoration: underline;
 }
+p {
+    color: black;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size:larger;
+}
 .main-grid {
     margin: 30px;
 }
@@ -16,10 +21,19 @@ a hover {
     font-size: 2em;
     margin-top: 10px;
     text-align: center;
+    background-color: rgba(255,255,255,.7);
+    margin-top: 50px;
 }
 .hero {
     background-image: url("../mountains.jpg");
     height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero2 {
+    background-image: url("../skiingpic.jpg");
+    height:400px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -66,7 +80,7 @@ a hover {
     border: 10px solid #848586;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
-    max-width: 100%;;
+    max-width: 100%;
 }
 .card-img:hover {
     opacity: .6;
@@ -109,6 +123,10 @@ a hover {
       color:black;
       padding: 40px;
       background-color: rgba(255,255,255,.7);
+  }
+  h1 {
+      color: black;
+      font-family: Roboto, Helvetica, sans-serif;
   }
   .button-box {
     text-align: center;
