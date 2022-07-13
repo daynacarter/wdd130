@@ -8,6 +8,9 @@ a hover {
     color:white;
     text-decoration: underline;
 }
+.main-grid {
+    margin: 30px;
+}
 .home-title {
     color:black;
     font-size: 2em;
@@ -36,12 +39,15 @@ a hover {
   .adult {
       display:grid;
       grid-template-rows: auto auto auto;
-      grid-template-columns: auto auto auto;
+      grid-template-columns: repeat(3 1f);
+      gap: 50px;
+
   }
   .children {
       display:grid;
       grid-template-rows: auto auto;
-      grid-template-columns: auto auto;
+      grid-template-columns: repeat(2 1fr);
+      gap: 50px;
   }
   .sub-title {
       grid-column: 1/4;
@@ -60,6 +66,7 @@ a hover {
     border: 10px solid #848586;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+    max-width: 100%;;
 }
 .card-img:hover {
     opacity: .6;
@@ -100,7 +107,8 @@ a hover {
   }
   h4 {
       color:black;
-      padding: 15px;
+      padding: 40px;
+      background-color: rgba(255,255,255,.7);
   }
   .button-box {
     text-align: center;
@@ -118,7 +126,6 @@ a hover {
     background-color:#C2847A;
     color:white;
   }
-
   #background {
     height: 725px;
 }
