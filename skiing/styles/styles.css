@@ -51,30 +51,29 @@ p {
     color: black;
   }
   .adult {
-      display:grid;
-      grid-template-rows: auto auto auto;
-      grid-template-columns: repeat(3 1f);
-      gap: 50px;
-
+    display:grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(3 1f);
+    gap: 50px;
   }
   .children {
-      display:grid;
-      grid-template-rows: auto auto;
-      grid-template-columns: repeat(2 1fr);
-      gap: 50px;
+    display:grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    gap: 50px;
   }
   .sub-title {
-      grid-column: 1/4;
-      grid-row: 1;
-      text-align: center;
+    grid-column: 1/4;
+    grid-row: 1;
+    text-align: center;
   }
   .mountainimg {
-      width: 100%;
+    width: 100%;
   }
   .about {
-      padding: 50px;
-      margin-top: 150px;
-      font-family: Roboto, Helvetica, sans-serif;
+    padding: 50px;
+    margin-top: 150px;
+    font-family: Roboto, Helvetica, sans-serif;
   }
   .card-img {
     border: 10px solid #848586;
@@ -87,12 +86,12 @@ p {
     transform: scale(1.1);
 }
   .ski-prices {
-      grid-column: 6/8;
-      grid-row: 2/3;
+    grid-column: 6/8;
+    grid-row: 2/3;
   }
   #hero-msg {
-      grid-column: 1/3;
-      grid-row: 1/2;
+    grid-column: 1/3;
+    grid-row: 1/2;
   }
   #hero-msg h1 {
     text-align:center;
@@ -101,32 +100,32 @@ p {
     grid-row: 1/2;
   }
   #hero-msg h2 {
-      text-align: center;
-      color: black;
+    text-align: center;
+    color: black;
   }
   #hero-msg h3{
-      text-align: center;
-      color: black;
+    text-align: center;
+    color: black;
   }
   .faq-banner {
-      width: 100%;
+    width: 100%;
   }
   #hero-msg h4 {
     text-align:center;
     color: black;
   }
   #hero-msg h5 {
-      text-align:right;
-      color: black;
+    text-align:right;
+    color: black;
   }
   h4 {
-      color:black;
-      padding: 40px;
-      background-color: rgba(255,255,255,.7);
+    color:black;
+    padding: 40px;
+    background-color: rgba(255,255,255,.7);
   }
   h1 {
-      color: black;
-      font-family: Roboto, Helvetica, sans-serif;
+    color: black;
+    font-family: Roboto, Helvetica, sans-serif;
   }
   .button-box {
     text-align: center;
