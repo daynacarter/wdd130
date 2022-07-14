@@ -53,7 +53,7 @@ p {
   .adult {
     display:grid;
     grid-template-rows: auto auto auto;
-    grid-template-columns: repeat(3 1f);
+    grid-template-columns: repeat(3, 1fr);
     gap: 50px;
   }
   .children {
