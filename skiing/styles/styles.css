@@ -118,6 +118,9 @@ p {
     text-align:right;
     color: black;
   }
+  .faq-text {
+    padding: 0 100px;
+  }
   h4 {
     color:black;
     padding: 40px;
